@@ -4,10 +4,12 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-
+function filterByLetter(names, letter) {
+    return names.filter(name => name[0] === letter);
+  }
 
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(filterByLetter(names, "A"));
 
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]

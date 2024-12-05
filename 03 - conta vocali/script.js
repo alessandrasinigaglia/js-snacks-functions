@@ -4,10 +4,12 @@ const word = 'javascript';
 
 
 // Dichiara la funzione qui.
+function countVocals(word) {
+    const vocals = "aeiou"; 
+}
 
 
 // Invoca la funzione qui e stampa il risultato in console
-
 
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)
